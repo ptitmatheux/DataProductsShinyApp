@@ -1,0 +1,17 @@
+---
+title: "explanation"
+author: "Ptitmatheux"
+date: "September 22, 2017"
+output: html_document
+---
+
+## Explanation
+
+This Shiny application uses the dataset NHANES (2009-2012) available through package NHANES. This is survey data collected by the US National Center for Health Statistics (NCHS).
+The app allows to do some exploratory analysis (scatter plots of predictors + response) as well as prediction based on user's input.
+
+Currently available predictors are Age, Weight, Height and BMI (body mass index), whereas available response variables are the following categorical variables: Gender, MaritalStatus and HHIncome.
+
+The user can enter his/her own data. The app performs then a prediction using the rpart method based on CART algorithm.
+
+**Note:** Obviously some combinations of predictors and predictands are unlikely to give good results. This is for illustration purpose only.
